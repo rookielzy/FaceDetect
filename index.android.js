@@ -11,21 +11,16 @@ import {
   Text,
   View
 } from 'react-native';
+import App from './js/app';
 
 export default class FaceDetect extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to Face Detect!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <App />
       </View>
     );
   }
